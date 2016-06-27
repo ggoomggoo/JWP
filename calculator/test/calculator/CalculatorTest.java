@@ -1,8 +1,9 @@
 package calculator;
 
 // import static *
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -26,6 +27,11 @@ public class CalculatorTest {
 	@Test
 	public void testMinus() {
 		assertEquals(1, calculator.minus(4, 3));
+	}
+	
+	@After
+	public void tearDown() {
+		System.out.println("tearDown");
 	}
 
 }
