@@ -39,6 +39,12 @@ public class ExamTest {
 	public void plusTest() throws Exception {
 		assertEquals(3, exam.plus("1,2"));
 		assertEquals(6, exam.plus("1,2,3"));
+		assertEquals(10, exam.plus("1,2,3\n4"));
+		assertEquals(15, exam.plus("1,2,3\n4:5"));
+	}
+	
+	@Test
+	public void customSeparatorTest() throws Exception {
 	}
 	
 /*	

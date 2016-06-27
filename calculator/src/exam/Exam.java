@@ -76,14 +76,15 @@ public class Exam {
 	 * @return
 	 */
 	public int plus(String str) {
-		String[] strArray = str.split(",");
+//		String[] strArray = str.split(",");
+//		String[] strArray = str.split(",|\n");
+		String[] strArray = str.split(",|\n|:");
 		int result = 0;
 		for (int i = 0; i < strArray.length; i++) {
 			result += Integer.parseInt(strArray[i]);
 		}
 		return result;
 	}
-	
 	
 }
 
