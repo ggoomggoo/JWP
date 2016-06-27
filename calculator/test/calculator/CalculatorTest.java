@@ -8,7 +8,9 @@ public class CalculatorTest {
 
 	@Test
 	public void testAdd() {
-		fail("Not yet implemented");
+		Calculator calculator = new Calculator();
+		int result = calculator.add(3, 4);
+		System.out.println(result);
 	}
 
 }
