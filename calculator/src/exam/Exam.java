@@ -18,6 +18,25 @@ public class Exam {
 	}
 */	
 	
+	// 구분자 추출
+	// 커스텀 구분자가 들어올 경우  //*\n 형태로 들어오는가?
+	public String getSeparator(String str) {
+		
+		return ";";
+	}
+	
+	// 쪼개기
+//	public List<Integer> split(String str) {
+//		return null;
+//	}
+	
+	// 덧셈
+	
+	// 예외처리
+
+	
+	
+	// 
 	public boolean isNull(String str) {
 		if(str == null) {
 			return true;
@@ -31,20 +50,40 @@ public class Exam {
 		return false;
 	}
 	
-	// 구분자 추출
-	// 커스텀 구분자가 들어올 경우  //*\n 형태로 들어오는가?
-	public String getSeparator(String str) {
+	public boolean canCastInteger(String str) {
 		
-		return ";";
+		return false;
 	}
 	
-	// 쪼개기
-	public List<Integer> split(String str) {
-		return null;
+	
+	public int returnOne(String str) {
+		if (str.matches("\\d+")) {
+			return Integer.parseInt(str);
+		}
+		return -1;
 	}
 	
-	// 덧셈
-	
-	// 예외처리
+	/**
+	 * @param str
+	 * @return
+	 */
+	public String[] split(String str) {
+		return str.split(",");
+	}
 
+	/**
+	 * @param str
+	 * @return
+	 */
+	public int plus(String str) {
+		String[] strArray = str.split(",");
+		int result = 0;
+		for (int i = 0; i < strArray.length; i++) {
+			result += Integer.parseInt(strArray[i]);
+		}
+		return result;
+	}
+	
+	
 }
+

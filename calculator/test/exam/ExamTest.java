@@ -22,6 +22,25 @@ public class ExamTest {
 		assertEquals(false, exam.isNull("100"));
 	}
 	
+	@Test
+	public void splitTest() throws Exception {
+		String[] str = new String[2];
+		str[0] = "1";
+		str[1] = "2";
+		assertEquals(str, exam.split("1,2"));
+	}
+	
+	@Test
+	public void returnOneTest() throws Exception {
+		assertEquals(5, exam.returnOne("5"));
+	}
+	
+	@Test
+	public void plusTest() throws Exception {
+		assertEquals(3, exam.plus("1,2"));
+		assertEquals(6, exam.plus("1,2,3"));
+	}
+	
 /*	
 	@Test
 	public void getSeparatorTest() throws Exception {
