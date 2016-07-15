@@ -8,7 +8,6 @@
 
 ### repo
 - https://github.com/slipp/jwp-book
-<<<<<<< HEAD
 - https://github.com/slipp/web-application-server
 - https://github.com/slipp/jwp-basic
 
@@ -29,8 +28,8 @@
 
 #### 05
 - MVC 패턴
-- https://github.com/t1t1/jwp-basic/tree/step2-chh-user-with-mvc-framework
+- https://github.com/t1t1/jwp-basic/commits/step2-chh-user-with-mvc-framework
 
 #### 06
 - JDBC 구현
-- https://github.com/t1t1/jwp-basic/tree/step2-to-step3-JDBC
+- https://github.com/t1t1/jwp-basic/commits/step2-to-step3-JDBC
