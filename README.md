@@ -8,6 +8,7 @@
 
 ### repo
 - https://github.com/slipp/jwp-book
+<<<<<<< HEAD
 - https://github.com/slipp/web-application-server
 - https://github.com/slipp/jwp-basic
 
