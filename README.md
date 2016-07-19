@@ -33,3 +33,20 @@
 #### 06
 - JDBC 구현
 - https://github.com/t1t1/jwp-basic/commits/step2-to-step3-JDBC
+
+#### 07
+- 이론
+-- “/”, “/*” 차이
+-- 가변인자
+-- try-with-resources
+-- runtime exception (unckecked exception)
+-- callback interface
+-- anonymous Class
+-- 제너릭; generic
+-- 인터페이스; interface
+-- 람다; lambda
+-- ...
+- Ajax
+-- https://github.com/t1t1/jwp-basic/commits/step5-chh-qna-with-ajax // 소스꼬임
+- View
+-- https://github.com/t1t1/jwp-basic/commits/step6-chh-qna-with-mvc-framework
