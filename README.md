@@ -10,6 +10,7 @@
 - https://github.com/slipp/jwp-book
 - https://github.com/slipp/web-application-server
 - https://github.com/slipp/jwp-basic
+- https://github.com/t1t1/jwp-basic/branches/yours
 
 ### 커뮤니티 채널
 - https://trello.com/b/CxZXgT0h/2016-01-fast-campus-jwp
@@ -52,3 +53,7 @@
 -- 
 - View
 -- https://github.com/t1t1/jwp-basic/commits/step6-chh-qna-with-mvc-framework
+
+#### 08
+- 중간점검
+-- https://github.com/t1t1/jwp-basic/commits/step7-chh-self-check
