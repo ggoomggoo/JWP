@@ -37,23 +37,23 @@
 
 #### 07
 - 이론
--- “/”, “/*” 차이
--- 가변인자
--- try-with-resources
--- runtime exception (unckecked exception)
--- callback interface
--- 익명 클래스; anonymous Class
--- 제너릭; generic
--- 인터페이스; interface
--- 람다; lambda
+- “/”, “/*” 차이
+- 가변인자
+- try-with-resources
+- runtime exception (unckecked exception)
+- callback interface
+- 익명 클래스; anonymous Class
+- 제너릭; generic
+- 인터페이스; interface
+- 람다; lambda
 - Ajax
--- https://github.com/t1t1/jwp-basic/commits/step5-chh-qna-with-ajax // 소스꼬임
--- jquery
--- jackson
--- 
+- https://github.com/t1t1/jwp-basic/commits/step5-chh-qna-with-ajax // 소스꼬임
+- jquery
+- jackson
+- 
 - View
--- https://github.com/t1t1/jwp-basic/commits/step6-chh-qna-with-mvc-framework
+- https://github.com/t1t1/jwp-basic/commits/step6-chh-qna-with-mvc-framework
 
 #### 08
 - 중간점검
--- https://github.com/t1t1/jwp-basic/commits/step7-chh-self-check
+- https://github.com/t1t1/jwp-basic/commits/step7-chh-self-check
