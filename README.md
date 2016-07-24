@@ -50,7 +50,6 @@
 - https://github.com/t1t1/jwp-basic/commits/step5-chh-qna-with-ajax // 소스꼬임
 - jquery
 - jackson
-- 
 - View
 - https://github.com/t1t1/jwp-basic/commits/step6-chh-qna-with-mvc-framework
 
