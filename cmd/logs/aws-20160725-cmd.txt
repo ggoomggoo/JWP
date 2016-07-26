@@ -1,0 +1,344 @@
+ubuntu@ip-000-00-0-000:~$ sudo locale-gen ko_KR.UTF-8  
+ubuntu@ip-000-00-0-000:~$ pwd  
+ubuntu@ip-000-00-0-000:~$ touch .bash  
+ubuntu@ip-000-00-0-000:~$ touch .bash_profile  
+ubuntu@ip-000-00-0-000:~$ cd ..  
+ubuntu@ip-000-00-0-000:/home$ dir  
+ubuntu@ip-000-00-0-000:/home$ pwd  
+ubuntu@ip-000-00-0-000:/home$ touch  
+ubuntu@ip-000-00-0-000:/home$ cd ~  
+ubuntu@ip-000-00-0-000:~$ dir  
+ubuntu@ip-000-00-0-000:~$ pwd  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ vi .bash  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ dir  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ cat .bash_profile  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ source .bash_profile  
+ubuntu@ip-000-00-0-000:~$ env  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ wget --header "Cookie: oraclelicense=accept-securebackup-c                     ookie  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ wget --header "Cookie: oraclelicense=accept-securebackup-c                     ookie" http://download.oracle.com/otn-pub/java/jdk/8u101-b13/jdk-8u101-linux-x64.tar                     .gz  
+ubuntu@ip-000-00-0-000:~$ ls -a  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ gunzip -xvg jdk-8u101-linux-x64.tar.gz  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ gunzip -help  
+ubuntu@ip-000-00-0-000:~$ gunzip -xvf jdk-8u101-linux-x64.tar.gz  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ chmod +x jdk-8u101-linux-x64.tar.gz  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ junzip -xvf jdk-8u101-linux-x64.tar.gz  
+ubuntu@ip-000-00-0-000:~$ gunzip -xvf jdk-8u101-linux-x64.tar.gz  
+ubuntu@ip-000-00-0-000:~$ gunzip --xvf jdk-8u101-linux-x64.tar.gz  
+ubuntu@ip-000-00-0-000:~$ gunzip jdk-8u101-linux-x64.tar.gz  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ ls 0al  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ dir  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ rm jdk-8u101-linux-x64.tar  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ wget --header "Cookie: oraclelicense=accept-securebackup-c                     ookie" http://download.oracle.com/otn-pub/java/jdk/8u101-b13/jdk-8u101-linux-x64.tar                     .gz  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ tar -xvf jdk-8u101-linux-x64.tar.gz  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ java -version  
+ubuntu@ip-000-00-0-000:~$ java -v  
+ubuntu@ip-000-00-0-000:~$ javac -v  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ pwd  
+ubuntu@ip-000-00-0-000:~$ cd jdk1.8.0_101/  
+ubuntu@ip-000-00-0-000:~/jdk1.8.0_101$ ls -al  
+ubuntu@ip-000-00-0-000:~/jdk1.8.0_101$ cd in  
+ubuntu@ip-000-00-0-000:~/jdk1.8.0_101$ ls -al  
+ubuntu@ip-000-00-0-000:~/jdk1.8.0_101$ cd bin  
+ubuntu@ip-000-00-0-000:~/jdk1.8.0_101/bin$ ls -al  
+ubuntu@ip-000-00-0-000:~/jdk1.8.0_101/bin$ cd ..  
+ubuntu@ip-000-00-0-000:~/jdk1.8.0_101$ ls -al  
+ubuntu@ip-000-00-0-000:~/jdk1.8.0_101$ cd ~  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ cd jdk1.8.0_101/  
+ubuntu@ip-000-00-0-000:~/jdk1.8.0_101$ ls -al  
+ubuntu@ip-000-00-0-000:~/jdk1.8.0_101$ cd bin  
+ubuntu@ip-000-00-0-000:~/jdk1.8.0_101/bin$ ls -al  
+ubuntu@ip-000-00-0-000:~/jdk1.8.0_101/bin$ cd ..  
+ubuntu@ip-000-00-0-000:~/jdk1.8.0_101$ cd ~  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ ln -s jdk  
+ubuntu@ip-000-00-0-000:~$ ln -s jdk  
+ubuntu@ip-000-00-0-000:~$ ln -s jdk1.8.0_101/  
+ubuntu@ip-000-00-0-000:~$ ln -s jdk1.8.0_101/ java  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ pwd  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ java -version  
+ubuntu@ip-000-00-0-000:~$ java -version  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ java -version  
+ubuntu@ip-000-00-0-000:~$ source .bash_profile  
+ubuntu@ip-000-00-0-000:~$ java -version  
+ubuntu@ip-000-00-0-000:~$ wget  
+ubuntu@ip-000-00-0-000:~$ wget --help  
+ubuntu@ip-000-00-0-000:~$ wget http://apache.tt.co.kr/maven/maven-3/3.3.9/binaries/a                     pache-maven-3.3.9-bin.tar.gz  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ tar -xvf apache-maven-3.3.9-bin.tar.gz  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ cd apache-maven-3.3.9/  
+ubuntu@ip-000-00-0-000:~/apache-maven-3.3.9$ ls -al  
+ubuntu@ip-000-00-0-000:~/apache-maven-3.3.9$ cd bin  
+ubuntu@ip-000-00-0-000:~/apache-maven-3.3.9/bin$ ls -al  
+ubuntu@ip-000-00-0-000:~/apache-maven-3.3.9/bin$ pwd  
+ubuntu@ip-000-00-0-000:~/apache-maven-3.3.9/bin$ cd ~  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ mvn -version  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ source .bash_profile  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ source .bash_profile  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ pwd  
+ubuntu@ip-000-00-0-000:~$ cd apache-maven-3.3.9/  
+ubuntu@ip-000-00-0-000:~/apache-maven-3.3.9$ ls -al  
+ubuntu@ip-000-00-0-000:~/apache-maven-3.3.9$ pwd  
+ubuntu@ip-000-00-0-000:~/apache-maven-3.3.9$ cd ..  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ source .bash_profile  
+ubuntu@ip-000-00-0-000:~$ cd :/home/ubuntu/apache-maven-3.3.9  
+ubuntu@ip-000-00-0-000:~$ cd /home/ubuntu/apache-maven-3.3.9  
+ubuntu@ip-000-00-0-000:~/apache-maven-3.3.9$ cd ..  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ source .bash_profile  
+ubuntu@ip-000-00-0-000:~$ vi .bash  
+ubuntu@ip-000-00-0-000:~$ vi .bash_profile  
+ubuntu@ip-000-00-0-000:~$ source .bash_profile  
+ubuntu@ip-000-00-0-000:~$ mvn -version  
+ubuntu@ip-000-00-0-000:~$ wget http://mirror.apache-kr.org/tomcat/tomcat-8/v8.5.4/bi                     n/apache-tomcat-8.5.4.tar.gz  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ tar -xvf apache-tomcat-8.5.4.tar.gz  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ ln -s apache-maven-3.3.9 mvn  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ ln -s apache-tomcat-8.5.4 tomcat  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ cd tomcat  
+ubuntu@ip-000-00-0-000:~/tomcat$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat$ cd bin  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./startup.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ifconfig  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat$ cd ~  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ cd tomcat/  
+ubuntu@ip-000-00-0-000:~/tomcat$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat$ cd bin  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./shutdown.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ sudo ufw status  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ufw status  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ sudo ufw status  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./shutdown.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./startup.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ifconfig  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ tail  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat$ cd webapps/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd ROOT/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat$ cd conf/  
+ubuntu@ip-000-00-0-000:~/tomcat/conf$ ls- al  
+ubuntu@ip-000-00-0-000:~/tomcat/conf$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/conf$ vi server.xml  
+ubuntu@ip-000-00-0-000:~/tomcat/conf$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/conf$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat$ cd ~  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \  
+ubuntu@ip-000-00-0-000:~$ apt-get  
+ubuntu@ip-000-00-0-000:~$ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \  
+ubuntu@ip-000-00-0-000:~$ apt-get update  
+ubuntu@ip-000-00-0-000:~$ sudo apt-get update  
+ubuntu@ip-000-00-0-000:~$ apt-get git install git-core  
+ubuntu@ip-000-00-0-000:~$ sudoapt-get install git-core  
+ubuntu@ip-000-00-0-000:~$ sudo apt-get install git-core  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ git version  
+ubuntu@ip-000-00-0-000:~$ git clone https://github.com/slipp/jwp-basic.git  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ cd jwp-basic/  
+ubuntu@ip-000-00-0-000:~/jwp-basic$ ls -al  
+ubuntu@ip-000-00-0-000:~/jwp-basic$ cd ..  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ cd jwp-basic/  
+ubuntu@ip-000-00-0-000:~/jwp-basic$ ls -al  
+ubuntu@ip-000-00-0-000:~/jwp-basic$ git checkout -b master origin/master  
+ubuntu@ip-000-00-0-000:~/jwp-basic$ ls -al  
+ubuntu@ip-000-00-0-000:~/jwp-basic$ cd ~  
+ubuntu@ip-000-00-0-000:~$ cd tomcat  
+ubuntu@ip-000-00-0-000:~/tomcat$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat$ cd webapps/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ mv ROOT/ ROOT_bak  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd ROOT_bak/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT_bak$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT_bak$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd ~  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ cd jwp-basic/  
+ubuntu@ip-000-00-0-000:~/jwp-basic$ pwd  
+ubuntu@ip-000-00-0-000:~/jwp-basic$ cd ..  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ cd tomcat/webapps/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ mv /home/ubuntu/jwp-basic ./jwp-basic  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ renme  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ mv jwp-basic/ ROOT  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd ROOT  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ mvn  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ cd tomcat  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ ls 0al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ cd ~  
+ubuntu@ip-000-00-0-000:~$ cd tomcat  
+ubuntu@ip-000-00-0-000:~/tomcat$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat$ cd bin  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./startup.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./shutdown.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./startup.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./shutdown.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ cd ~  
+ubuntu@ip-000-00-0-000:~$ ls -al  
+ubuntu@ip-000-00-0-000:~$ cd tomcat  
+ubuntu@ip-000-00-0-000:~/tomcat$ cd webapps/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd ROOT  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ mvn clean package  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$  cd ~  
+ubuntu@ip-000-00-0-000:~$ cd tomcat/bin  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./startup.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./shutdown.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat$ cd webapps/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd ROOT  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ cd src/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT/src$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ cd target/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT/target$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT/target$ cd ../..  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd ../bin  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./startup.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./shutdown.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./startup.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat$ cd bin  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./shutdown.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat$ cd webapps/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd ROOT_bak/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT_bak$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT_bak$ cd WEB-INF/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT_bak/WEB-INF$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT_bak/WEB-INF$ vi web.xml  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT_bak/WEB-INF$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT_bak$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT_bak$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd ROOT  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ cd webapp/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT/webapp$ -s la  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT/webapp$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT/webapp$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ mv ROOT jwp-basic  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd jwp-basic/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/jwp-basic$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/jwp-basic$ cd target/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/jwp-basic/target$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/jwp-basic/target$ pwd  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/jwp-basic/target$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/jwp-basic$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/jwp-basic$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ mv /home/ubuntu/tomcat/webapps/jwp-basic/target ./ROOT  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd ROOT  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ cd jwp-basic/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT/jwp-basic$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT/jwp-basic$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ mv ROOT ./target  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ mv ./target/  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ mv ./target/jwp-basic ./ROOT  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd ROOT  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps/ROOT$ cd ..  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/webapps$ cd ~  
+ubuntu@ip-000-00-0-000:~$ cd tomcat  
+ubuntu@ip-000-00-0-000:~/tomcat$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat$ cd bin  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./startup.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./shutdown.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ls -al  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./startup.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./shutdown.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./startup.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./shutdown.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./shutdown.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ps -ef | java  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./startup.sh  
+ubuntu@ip-000-00-0-000:~/tomcat/bin$ ./shutdown.sh  

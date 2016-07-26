@@ -1,12 +1,12 @@
 # JWP
 
-## Link
+## 링크
 
 ### 강좌소개
 - http://www.fastcampus.co.kr/dev_camp_jwp/
 - http://www.fastcampus.co.kr/dev_camp_jwp_blog_instructor_1/
 
-### repo
+### 저장소
 - https://github.com/slipp/jwp-book
 - https://github.com/slipp/web-application-server
 - https://github.com/slipp/jwp-basic
@@ -17,25 +17,25 @@
 - fastcampus-jwp1.slack.com
 - docs.google.com // qna
 
-### 진행과정
+## 진행과정
 
-#### 01
+### 01
 
-#### 02
+### 02
 
-#### 03
+### 03
 
-#### 04
+### 04
 
-#### 05
+### 05
 - MVC 패턴
 - https://github.com/t1t1/jwp-basic/commits/step2-chh-user-with-mvc-framework
 
-#### 06
+### 06
 - JDBC 구현
 - https://github.com/t1t1/jwp-basic/commits/step2-to-step3-JDBC
 
-#### 07
+### 07
 - 이론
 - “/”, “/*” 차이
 - 가변인자
@@ -53,6 +53,16 @@
 - View
 - https://github.com/t1t1/jwp-basic/commits/step6-chh-qna-with-mvc-framework
 
-#### 08
+### 08
 - 중간점검
 - https://github.com/t1t1/jwp-basic/commits/step7-chh-self-check
+
+### 09
+- 질문과답변
+- 프로그래밍을 잘한다의 기준?
+- BASS
+- 신기술에 휘둘리지 말 것. 한 가지를 집중있게 학습하지 않으면 한계를 넘지 못한다. 한가지를 정복하고 나면 다른 분야도 쉽게 접근 가능 할 것이다. 
+- 상태점검 - 중간점검
+- 07 멀티쓰레드 // 스택, 힙, 인스턴스, 싱글턴, 필드, 상태, 
+- 13 객체지향 // 서비스 로직 -> 도메인 객체에 로직을 처리 하는 메서드
+- AWS
