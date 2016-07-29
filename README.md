@@ -66,3 +66,16 @@
 - 07 멀티쓰레드 // 스택, 힙, 인스턴스, 싱글턴, 필드, 상태, 
 - 13 객체지향 // 서비스 로직 -> 도메인 객체에 로직을 처리 하는 메서드
 - AWS
+
+### 10
+- build
+- 도메인 분리 -> apatche server | virtual host
+- 배포자동화
+- shell 첫번째 라인: 해당 언어로 프로그램 실행
+- maven profile - dev, product 다르게 빌드
+- ;
+- tomcat = Servlet Container + @
+- RequestMapping
+- Spring container
+- java class, POJO; 특정 프레임워크에 종속 받지 않는 자바 클래스
+- annoation -> spring 의존적 -> not POJO
