@@ -79,3 +79,31 @@
 - Spring container
 - java class, POJO; 특정 프레임워크에 종속 받지 않는 자바 클래스
 - annoation -> spring 의존적 -> not POJO
+
+### 11
+- 어떻게 web.xml 없이 기동이 되는것인가?
+- spring-web-*.jar/META-INF/services/javax.servlet.ServletContainerInitializer
+- org.springframework.web.SpringServletContainerInitializer
+- WebApplicationInitializer 인터페이스를 읽음
+- L175 // initializer.onStartup(servletContext);
+- so, WebApplicationInitializer를 구현
+- ;
+- HTTP: PUT, DELETE
+- <input type="hidden" name="_method" value="DELETE">
+- HiddenHttpMethodFilter.class
+- ;
+- class 파일 java 파일로 읽어 들이기
+- pom.xml; L238; maven-eclipse-plugin
+- ;
+- User
+- java bean 규약
+- getter, setter method
+- default contructor(기본 생성자)
+- ;
+- boolean: Boolean -> getter; is* : get*
+- ;
+- lombok
+- ;
+- 서블릿 api에 종속되지 않도록
+- ;
+- 
