@@ -4,3 +4,6 @@
 [submodule "jwp-spring"]
 	path = jwp-spring
 	url = https://github.com/t1t1/jwp-spring.git
+[submodule "web-application-server"]
+	path = web-application-server
+	url = https://github.com/t1t1/web-application-server.git
