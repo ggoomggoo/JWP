@@ -1,0 +1,6 @@
+[submodule "jwp-basic"]
+	path = jwp-basic
+	url = https://github.com/t1t1/jwp-basic.git
+[submodule "jwp-spring"]
+	path = jwp-spring
+	url = https://github.com/t1t1/jwp-spring.git
