@@ -105,5 +105,21 @@
 - lombok
 - ;
 - 서블릿 api에 종속되지 않도록
-- ;
+- ;;
+- HandlerMethodArgumentResolver
+- annotaion 활용
+
+### 12
+* 요청에 따라 응답을 다른 형태로 보내기
+- Content Negotiation View Resolver
+- url에 따라 형태 반환 다르게
+- Header, Accept를 다르게 요청하면 반환 다르게
+
+* 기존 시스템(코드) -> 새로운 시스템(코드)
+- 기존 방식은 기존 시스템에서는 핫픽스만, 새로운 시스템 재개발
+- 달리는 마차에 바퀴를 바꿔끼우기
+
+* dispatcher servlet 과 RequestMapping 사이에 한단계 추상화
+- HandlerAdapter
+- viewResolver 와 비슷한 추상화 방식
 - 
