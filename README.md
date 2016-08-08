@@ -122,4 +122,76 @@
 * dispatcher servlet 과 RequestMapping 사이에 한단계 추상화
 - HandlerAdapter
 - viewResolver 와 비슷한 추상화 방식
-- 
+
+* 단위테스트가 가능하도록 리팩토링
+- 싱글턴패턴 형태의 개발은 단위테스트가 어려움
+- 메서드는 한가지 동작만 하도록 구현
+- DI
+- // 유연성을 높임
+- // 유지보수, 테스트 코드 작성에서 DI의 필요성을 느낄 수 있음
+- 객체지향적 사고 (TODO: QA service 삭제 로직)
+- // int hour -> class Hour
+
+* Spring DI
+- @Autowired 설정 누락 시 nullpoint exception 발생
+
+### 13
+
+* mutable vs immutable
+- 프레임워크에 종속된 경우 immutable하도록 구현하기 힘들다(ORM... 하이버네이트)
+
+```java
+void increase() {
+	this.no + 1;
+}
+
+MyNumber increase() {
+	return new MyNumber(no + 1);
+}
+```
+
+* mokito
+- DAO를 바꿔치기
+- MockUserDao
+
+* 리팩토링
+- 클래스명 한번에 변경
+- 인터페이스 추출
+- 컨트롤러에서 서비스클래스(인터페이스) DI
+
+* static import
+- 로컬 메서드 처럼 사용할 수 있음
+
+```java
+import static org.hamcrest. CoreMatchers.*;
+import static org.junit.Assert.*;
+import static org.mockito.Mockito.*;
+```
+
+* insert()
+- @RunwiWith(MockitoJUnitRunner.class)
+- @Mock
+- private UserDao userDao;
+- @InjectMocks
+- private UserControler dut;
+- User user = new  User('');
+- verify(userDao).insert(user);
+- assertThat(insert(user), is("redirct:/"));
+
+* login()
+- ExtendedModelap model = new ExtendedModelMap();
+- MockHttpSession
+- when(userDao.findByUserId("userId")).thendReturn(null);
+
+* 객체지향적인 코드가 테스트하기에 유리하다
+* 로직은 상태값을 가지는 객체가 구현하는 것이다
+
+* Resource Server
+- 재사용성을 높임
+- json응답(모바일), html응답(웹) 의 중복을 줄여줌
+- -> Handler Server -> client
+- tomcat, nodejs 혼용 아키텍처도 가능
+
+* empty vs blank
+* isEmpty // 진짜 없음
+* isBlank // 공백 포함
