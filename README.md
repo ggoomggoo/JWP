@@ -195,3 +195,22 @@ import static org.mockito.Mockito.*;
 * empty vs blank
 * isEmpty // 진짜 없음
 * isBlank // 공백 포함
+
+### 14
+* properties 파일 관리
+- db config
+- form:form
+- form:errors
+- message
+- setCache
+
+* AOP
+- OOP + AOP // OOP를 보완하는 용도
+- 인프라 -> AOP
+- Proxy 패턴
+- InvocationHandler
+- FactoryBean
+
+* Aspect
+- pointcut + advice
+- -> transaction, mockito
