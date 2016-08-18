@@ -214,3 +214,48 @@ import static org.mockito.Mockito.*;
 * Aspect
 - pointcut + advice
 - -> transaction, mockito
+
+#### 15
+* transaction
+- isolation level
+- propgation behavior
+- exception은 runtime exception 을 기본으로 잡음
+- checked exceipt을 잡으려면 해당 exception을 명시
+- noRollbackFor = ${}exception.calss
+- select 는 readOnly = true
+- junit test method에 @Transactional 사용 시 테스트 코드 실행 후 자동 롤백 // @Rollback(false)
+- 모든 method에 @Transactional 을 사용하는 것이 거의 관례 // 다른 service에서 호출 하는 경우도 고려
+
+* cache
+- @Cacheable(key = "questionId")
+- 캐싱 전략
+- : 서비스 사이트에서 자주 변경되지 않는 부분은 DB 쿼리 조회를 매번하는 것이 아니라 캐싱
+- : pagination 1~5 page
+- @CacheEvict(key = "questionId")
+- : 캐시 되어이쓴 부분이 변경시 캐시를 지움
+- 캐시 용량
+- : CacheElement
+- : Cache 서버를 별도 둠
+
+* Spring Boot
+* 프로젝트 생성
+- : start.spring.io
+- : Import Maven Project
+- : Spring starter project
+- STS
+- : Boot Dashboard
+- JSP 설정
+- : pom.xml
+- : application.properties
+- : src/main/webapp, src/main/resource/...
+- DB 설정
+- : pom.xml
+- : scheme.sql, data.sql
+- 동작원리
+- : JdbcTemplateAutoConfiguration
+- : @Configuration
+- : @Conditional...
+- devtools
+- Lombok
+- mvnw
+- : java -jar ....war
