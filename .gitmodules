@@ -7,3 +7,6 @@
 [submodule "web-application-server"]
 	path = web-application-server
 	url = https://github.com/t1t1/web-application-server.git
+[submodule "Spring-Boot"]
+	path = Spring-Boot
+	url = https://github.com/t1t1/Spring-Boot.git
